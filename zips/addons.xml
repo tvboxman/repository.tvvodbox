@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.tvvodbox.notifications" name="tvboxman vodbox notifications" version="0.0.1" provider-name="brando">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">notifier popup for kodi</summary>
+		<description lang="en">tvboxman notifier</description>
+		<platform>android</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre>downloads,canadian</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="repository.tvvodbox" name="TVVODBOX" version="0.0.1" provider-name="Brando">
+	<extension point="xbmc.addon.repository" name="TVVODBOX">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+<dir>
+                        <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+                </dir>
+		<info compressed="false">https://raw.githubusercontent.com/tvboxman/repository.tvvodbox/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tvboxman/repository.tvvodbox/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/tvboxman/repository.tvvodbox/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Newwst test repo</summary>
+		<description lang="en">the tvvodbox repo</description>
+		<genre>downloads,canadian</genre>
+	</extension>
+</addon>
+</addons>
