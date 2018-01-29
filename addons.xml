@@ -23,6 +23,8 @@
   </extension>
 </addon>
 
+</addon>
+
 <addon id="repository.tvvodbox" name="TVVODBOX" version="0.0.1" provider-name="Brando">
 	<extension point="xbmc.addon.repository" name="TVVODBOX">
 		<dir>
