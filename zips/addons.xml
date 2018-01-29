@@ -21,6 +21,11 @@
   	<source></source>
   	<email></email>
   </extension>
+<<<<<<< HEAD
+=======
+</addon>
+
+>>>>>>> c62a5c4b34ed36d856e1357b5113ccff82aabaff
 </addon>
 
 <addon id="repository.tvvodbox" name="TVVODBOX" version="0.0.1" provider-name="Brando">
@@ -46,3 +51,4 @@
 	</extension>
 </addon>
 </addons>
+
